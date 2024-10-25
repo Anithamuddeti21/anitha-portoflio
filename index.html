@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Muddeti Anitha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2d993a360.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a><span></span></li>
+                    <li><a href="#about">About</a><span></span></li>
+                    <li><a href="#certifications">Certifications</a><span></span></li>
+                    <li><a href="#projects">Projects</a><span></span></li>
+                    <li><a href="#Achivements">Achivements</a><span></span></li>
+                    <li><a href="#contact">Contact</a><span></span></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"> <!-- d-->
+
+                <h1>Hi, I'm <span>Muddeti Anitha</span></h1>
+
+                <h3 data-text="Software Engineer...">Software Engineer...</h3>
+
+
+                <div class="btn-box">
+
+
+                    <a href="https://www.linkedin.com/in/muddeti-anitha-087898256/" class="btn">Hire Me</a>
+                    <a href="https://www.linkedin.com/in/muddeti-anitha-087898256/" class="btn">Let's Talk</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--starting of About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anitha img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>A Multitasking Individual with the ability to do the work effectively & efficiently in a
+                        fast-paced company for the role of a software Engineer.I have hands-on experience with
+                        programming languages like C, Python, and Java, and I am skilled in web technologies such as
+                        HTML and CSS. I also work with tools like GitHub and VS Code to enhance my development workflow.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Technical-Skills')">
+                            Technical-Skills<span></span></p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience<span></span></p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education<span></span></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Technical-Skills">
+                        <ul>
+                            <li><span>Programming</span><br>C,Python,Java</li>
+                            <li><span>Miscellaneous</span><br>Data Structures and Algorithms, OOPS</li>
+                            <li><span>Web Development</span><br>HTML,CSS</li>
+                            <!-- <li><span>CS Fundamentals</span><br>DBMS, Design analysis and algorithms, Operating System, Computer Networks</li> -->
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 (3-Months)</span><br>CodeClause Web Development Internship</li>
+                        <li><span>2022-2024(Current)</span><br>Content Writer at B2D (Start-up)</li>
+                       
+                        <li><span>2022</span><br>Completed Introduction to C++ & DSA in C++ Course at CODING NINJAS</li>
+                        <li><span>2020</span><br>Intern at Black-Bugs</li>
+                    </ul>
+                </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B-Tech. Rajeev Gandhi Memorial College of Engineering and
+                                Technology <br></li>
+                            <li><span>2019-2021</span><br>Senior Secondary from State Board</li>
+                            <li><span>2018-2019</span><br>Secondary from State Board</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------Coding Profiles-------------------------------  -->
+    <!--
+<div id="codingprofiles">
+    <div class="container">
+    <h1 class="sub-title">My <span>Coding Profiles</span></h1>
+    <div class="codingprofiles-list">
+    
+        <div>
+            <i class="fa-solid fa-code fa-beat fa-xl" style="color: #098fd3;"></i>
+            <h2>CodeForces</h2>
+            <p>
+                The Frameworks which I have used for this is basic Social Media Website are React, NodeJs, CSS, MongoDB, ExpressJs.
+                <br>The Main Features implemented includes create post, delete post, update post,like,posts, following people etc.
+            </p>
+            <a href="#">CodeForces</a>
+        </div>
+
+        <div>
+            <i class="fa-duotone fa-code fa-bounce fa-xl" style="color: #098fd3;"></i>
+            <h2>LeetCode</h2>
+            <p>
+                The Frameworks which I have used for this is basic Social Media Website are React, NodeJs, CSS, MongoDB, ExpressJs.
+                <br>The Main Features implemented includes create post, delete post, update post,like,posts, following people etc.
+            </p>
+            <a href="#">LeetCode</a>
+        </div>
+
+
+        <div>
+            <i class="fa-solid fa-utensils fa-shake fa-xl"style="color:#098fd3;" ></i>
+            <h2>CodeChef</h2>
+            <p>
+                The Frameworks which I have used for this is basic Social Media Website are React, NodeJs, CSS, MongoDB, ExpressJs.
+                <br>The Main Features implemented includes create post, delete post, update post,like,posts, following people etc.
+            </p>
+            <a href="#">Github</a>
+        </div>
+
+    </div>
+
+    </div>
+</div>
+
+
+-->
+
+
+
+
+
+
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="certifications-list">
+                <div class="certifications">
+                    <img src="images/infosys python.jpg">
+                    <div class="layer">
+                        <h4>Basics of Python</h4>
+                        <p>
+
+                            <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                            Sucessfully Completed Basics of Python conducted by Infosys.
+
+
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <img src="images/python.jpg">
+                    <div class="layer">
+                        <h4>Codio</h4>
+                        <p>
+                            <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                            Sucessfully Completed Python Programming from codio.
+
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <img src="images/generative ai.jpg">
+                    <div class="layer">
+                        <h4>Demystifying Generative AI for Leaders</h4>
+                        <p>
+                            <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                            Sucessfully Completed Generative AI conducted by Infosys.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="certifications">
+                    <img src="images/skilldrize.jpg">
+                    <div class="layer">
+                        <h4>SkillDrize Internship</h4>
+                        <p>
+                            <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                            Sucessfully Completed Machine learning Internship.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="certifications">
+                    <img src="images/java basic.jpg">
+                    <div class="layer">
+                        <h4>Java Basic Quiz</h4>
+                        <p>
+                            <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                            Sucessfully Completed Java Basic Quiz by LearnTube.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- <div class="codingprofiles">
+                <img src="images/jntuh_king.png">
+                <div class="layer">
+                    <h4>JNTUH CODEKING National-Level Coding Competition</h4>
+                    <p>
+                        Qualified for Round-2 among 20,000 students.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                </div>
+            </div>
+
+            <div class="codingprofiles">
+                <img src="images/coding ninjas c++.png">
+                <div class="layer">
+                    <h4>Coding Ninjas</h4>
+                    <p>
+                        <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                        Sucessfully Completed C++ in Coding Ninjas.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                </div>
+            </div>
+
+            <div class="codingprofiles">
+                <img src="images/datastructures in coding ninjas.png">
+                <div class="layer">
+                    <h4>Coding Ninjas</h4>
+                    <p>
+                        <i class="fa-solid fa-star fa-beat fa-xl" style="color: #ffdd00;"></i>
+                        Sucessfully Completed DSA in C++, Solved 100+ on DSA.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                </div>
+            </div>
+
+            
+           
+            <div class="codingprofiles">
+                <img src="images/snackdown.png">
+                <div class="layer">
+                    <h4>CodeChef SnackDown 2021</h4>
+                    <p>
+                        
+                       Qualified for CodeChef SnackDown 2021 Qualifier Round among 60,000+ of people participated.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                </div>
+            </div>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <a href="https://www.linkedin.com/in/muddeti-anitha-087898256/" class="btnn">linkedin</a>
+        </div>
+    </div>
+
+
+
+    <!-----------------------------------------portfolio--------------------------------------------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><span>Projects</span></h1>
+            <div class="projects-list">
+                <div class="projects">
+                    <img src="images/car.jpg">
+                    <div class="layer">
+
+                        <h4>Object Counting</h4>
+                        <p> Utilized object detection techniques to identify and classify objects within images or video
+                            streams.Tools and Frameworks Used : TensorFlow, PyTorch, and OpenCV.
+                        </p>
+                        <a href="https://github.com/Anithamuddeti21/ImageCounting"><i
+                                class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <img src="images/neural network.png">
+                    <div class="layer">
+                        <h4>Classification with Neural Networks</h4>
+                        <p>Developed and implemented neural network models for classification tasks, leveraging deep
+                            learning techniques
+                            to accurately categorize data.Tools and Frameworks Used : TensorFlow,Keras,PyTorch
+                        </p>
+                        <a href="https://github.com/Anithamuddeti21/NeuralNetwork"><i
+                                class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <img src="images/fraud detection.png">
+                    <div class="layer">
+                        <h4> Online Fraud Detection</h4>
+                        <p> Developed machine learning models for online fraud detection using
+                            Python,scikit-learn,TensorFlow. Tools Used: Python, scikit-learn, and TensorFlo
+                        </p>
+                        <a href="https://github.com/Anithamuddeti21/online-fraud-detection"><i
+                                class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="projects"></div>
+                <img src="images/fraud detection.png">
+                <div class="layer">
+                    <h4></h4>
+                    <p> Developed machine learning models for online fraud detection using Python,scikit-learn,TensorFlow. Tools Used: Python, scikit-learn, and TensorFlo
+                    </p>
+                    <a href="https://github.com/Anithamuddeti21/online-fraud-detection"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a>
+                </div>
+            </div> -->
+
+            </div>
+            <a href ="https://github.com/Anithamuddeti21" class="btnn">github</a>
+        </div>
+    </div>
+
+
+
+    <!-- Achivements -->
+
+
+    <div id="Achivements">
+        <div class="container">
+            <h1 class="sub-title"><span>Achivements</span></h1>
+            <div class="Achivements-list">
+                <div class="Achivements">
+                    <img src="images/bis quiz.jpg">
+                    <div class="layer">
+
+                        <h4>Quality and Standards 2.O</h4>
+                        <p>Successfully completed Quiz conducted by Bureau of Indian Standards(BIS).
+                        </p>
+                        <!-- <a href="https://www.linkedin.com/in/muddeti-anitha-087898256/"><i class="fa-solid fa-up-right-from-square fa-flip"></i></a> -->
+                    </div>
+                </div>
+                <div class="Achivements">
+                <img src="images/poster .jpg">
+                <div class="layer">
+                    <h4>Classification with Neural Networks</h4>
+                    <p>Successfully completed Quiz conducted by Bureau of Indian Standards(BIS).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <a href="#" class="btnn"></a> -->
+</div>
+    </div>
+
+
+    
+    <!-- -------------------------------contact------------------------------------>
+
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane fa-bounce"
+                            style="color: #00abf0; "></i>muddetianitha@gmail.com</p>
+                    <p> <i class="fa-brands fa-whatsapp fa-fade" style="color: #00abf0;"></i> <i
+                            class="fa-solid fa-square-phone fa-fade" style="color: #00abf0;"></i>+91 7981939564</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/muddeti-anitha-087898256//"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Anithamuddeti21"><i class="fa-brands fa-github"></i></a>
+
+                        <!-- <a href="https://instagram.com/ba.be2289?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a> -->
+
+
+                    </div>
+                    <a href="images/anitha muddeti resume.pdf" download class="btnn btnn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <p> </p>
+                        <button type="submit" class="btnn btnn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Anitha Muddeti.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        var btns = document.getElementsByClassName("btn");
+
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var currentBtn = document.getElementsByClassName("active-btn");
+                if (currentBtn.length > 0) {
+                    currentBtn[0].classList.remove("active-btn");
+                }
+                this.classList.add("active-btn");
+            });
+        }
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzIXuVWiXZA9VSfDI4zCI0o93VxsWurXCYmrVvSeB9cBc8vWoHDZzXiwQYkUlNg5PoXuA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Sucessfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-160px";
+        }
+    </script>
+
+</body>
+
+</html>
